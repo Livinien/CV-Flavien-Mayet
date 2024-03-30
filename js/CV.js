@@ -542,3 +542,5 @@ const scene13 = new ScrollMagic.Scene({
 
 
 
+// CHANGER LA LANGUE EN ANGLAIS //
+

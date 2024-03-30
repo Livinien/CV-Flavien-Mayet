@@ -36,7 +36,6 @@ header {
     align-items: center;
 }
 
-
 header .title {
     position: relative;
     color: #fff;
@@ -47,7 +46,6 @@ header .title {
     letter-spacing: 1px;
 }
 
-
 .photo-profil img {
     display: none;
 }
@@ -57,8 +55,9 @@ header .navigation a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
     padding: 2px 15px;
     border-radius: 8px;
     background: #fff;
@@ -66,6 +65,17 @@ header .navigation a {
     transition-property: background;
 }
 
+.lang-select {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: #fff;
+    transition: 0.3s;
+    transition-property: background;
+}
 
 header .navigation a:not(:last-child) {
     margin-right: 30px;
@@ -74,8 +84,6 @@ header .navigation a:not(:last-child) {
 header .navigation a:hover {
     background: rgb(39, 218, 224);
 }
-
-
 
 .wrapper ul {
     display: flex;
@@ -86,10 +94,6 @@ header .navigation a:hover {
 .wrapper ul li {
     margin-left: 30px;
 }
-
-
-
-
 
 
 
